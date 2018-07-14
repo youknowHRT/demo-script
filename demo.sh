@@ -1,5 +1,5 @@
 if [ -d $1 ]; then
-  echo '文件已存在'
+  echo '锟侥硷拷锟窖达拷锟斤拷'
 else
   mkdir $1
   cd $1
@@ -7,7 +7,7 @@ else
   touch index.html css/style.css js/main.js
   echo  -e '<h1>Hi</h1>' >> index.html
   echo 'h1{color: red;}' >> css/style.css
-  echo -e 'var string = "Hello World"
+  echo -e 'var string = "Hello World!"
     alert(string)'  >> js/main.js
   echo 'Success'
   exit
